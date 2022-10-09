@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media do aluno</title>
+</head>
+<script>
+     let nota1 = parseInt(prompt('Digite a 1 nota'))
+     let nota2 = parseInt(prompt('Digite a nota 2'))
+     let media = (nota1 + nota2)/2
+     console.log(media)
+
+     if (media >= 6) { alert('Aprovado!')
+        
+     } else { alert('Exame final')
+        let exame = parseFloat(prompt('Digite o resultado do exame'))
+        let NovaMedia = (media + exame)/ 2
+        console.log(NovaMedia)
+        if ( NovaMedia >= 6) { alert('Aprovado!')
+            
+        } else {
+           alert('Reprovado.')
+        }
+     }
+
+</script>
+<body>
+    
+</body>
+</html>
